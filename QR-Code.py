@@ -1,6 +1,7 @@
 import os
 import pyqrcode
 from PIL import Image
+import png
 
 class QR_Gen(object):
     def __init__(self, text):
@@ -19,4 +20,4 @@ class QR_Gen(object):
         image.show()
 
 if __name__ == "__main__":
-    QR_Gen(input("[QR] Enter text or link: ")
+    QR_Gen(input("[QR] Enter text or link: "))
